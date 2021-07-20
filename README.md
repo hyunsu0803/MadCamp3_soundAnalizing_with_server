@@ -1,4 +1,4 @@
-# MadCamp_week3_FlaskServer && Sound Source Analyzer (madmom)
+# Flask Server && Sound Source Analyzer (madmom)
 
 ### 프로젝트 한 줄 소개
 > 서버에 들어온 post 요청을 받아서 음원을 분석한 결과를 반환하는 프로그램 및 서버
