@@ -27,7 +27,7 @@
 > 
 > madmom library의 features package 속 CNNPianoNoteProcessor와 ADSRNoteTrackProcessor를 이용해 음원으로부터 MIDI note를 추출해낸다.
 >
-> 분석 결과를 list로 반환한다. 
+> 분석 결과는 2-dimensional numpy array로 반환한다. 3개의 column과 음 개수만큼의 row로 이루어져 있으며 첫번째 column은 각 음의 attack timing, 두번쨰 column은 MIDI note이다. 
 > 
 > 음원 분석의 정확도를 높이기 위해 onset_threshold를 0.9로 높여주었다.
 >
