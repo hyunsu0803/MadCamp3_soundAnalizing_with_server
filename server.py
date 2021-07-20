@@ -9,8 +9,8 @@ app.config['DEBUG'] = True
 CORS(app)
 
 
-@app.route('/express_to_flask', methods=['POST'])
-def express_to_flask():
+@app.route('/react_to_flask', methods=['POST'])
+def react_to_flask():
     parsed_request = request.files.get('file')
     fileName = request.form.get('fileName')
 
